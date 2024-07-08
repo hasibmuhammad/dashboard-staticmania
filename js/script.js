@@ -7,7 +7,7 @@ const container = document.getElementById("chart");
 data.forEach((value, index) => {
   const bar = document.createElement("div");
   bar.classList.add("bar", "w-4", "bg-blue-100");
-  bar.style.height = `${value * 10}px`;
+  bar.style.height = `${value * 5}px`;
 
   if (index === data.length - 3) {
     bar.classList.add("bg-blue-500");
